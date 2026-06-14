@@ -1,0 +1,11 @@
+[OK] database: path=/home/ronny/.genus/genus.sqlite3
+[OK] integrity: events=684
+[OK] sealing: head_event_id=684 head=a4e2367bdfb939271e824ab7ea5e60abcff0af493cb48af87d9e15f8f25deeeb
+[OK] core-id: GENUS_CORE_ID=pi-core
+[OK] sensor-cpu: 0.0 percent
+[OK] sensor-memory: 4.1 percent
+[OK] sensor-disk: 7.5 percent
+[OK] sensor-activity: 0.0 binary
+[OK] sensor-temperature: 50.7 celsius
+[OK] forbidden-model-imports: none
+[OK] forbidden-network-imports: none
