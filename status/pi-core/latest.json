@@ -12,69 +12,15 @@
   },
   "generated_at": "2026-06-14T19:50:29.114Z",
   "issues": [],
-  "latest_events": [
-    {
-      "created_at": "2026-06-14T19:50:02.686Z",
-      "event_type": "evidence_recorded",
-      "id": 675,
-      "seal": "2dcb634bf020b98dce328af635fc89e678710b71148a7562978898424a086c50"
-    },
-    {
-      "created_at": "2026-06-14T19:50:02.696Z",
-      "event_type": "observation_created",
-      "id": 676,
-      "seal": "a623b48699976b4c4bd8e5b9828780dbd99883902f5d8595028cac3b218feef8"
-    },
-    {
-      "created_at": "2026-06-14T19:50:02.696Z",
-      "event_type": "evidence_recorded",
-      "id": 677,
-      "seal": "8f8eea73e515b67dc1cfea8f9d2c6d4fa6af70087319acd2c638290151c1f94b"
-    },
-    {
-      "created_at": "2026-06-14T19:50:02.703Z",
-      "event_type": "observation_created",
-      "id": 678,
-      "seal": "31e5db97baa56a2676181d14ff26d1745b854cbbdf36ba4f1802fa5d289633ef"
-    },
-    {
-      "created_at": "2026-06-14T19:50:02.704Z",
-      "event_type": "evidence_recorded",
-      "id": 679,
-      "seal": "e8d14ec866ea462a4e3b55f025633320783a571cdb602ab0b83ff21deca4113d"
-    },
-    {
-      "created_at": "2026-06-14T19:50:03.211Z",
-      "event_type": "observation_created",
-      "id": 680,
-      "seal": "10f76afa08b2f47bf0dbee20c5a54e274beec554cfe04ba9f3c9253533a2e2a6"
-    },
-    {
-      "created_at": "2026-06-14T19:50:03.211Z",
-      "event_type": "evidence_recorded",
-      "id": 681,
-      "seal": "2fe79b0a35b47950143e9eceb6b5a6442fa440d4685048b6bd7819fd788f2e48"
-    },
-    {
-      "created_at": "2026-06-14T19:50:03.211Z",
-      "event_type": "belief_confirmed",
-      "id": 682,
-      "seal": "14ea6cdb5b194c43da5b948bd6989eb0a7dcd8f012fe496140b38c67a1b445d3"
-    },
-    {
-      "created_at": "2026-06-14T19:50:03.224Z",
-      "event_type": "observation_created",
-      "id": 683,
-      "seal": "e38a46d7c486ad26314546c306a91c04cc371a7b5e9b312a520672cc57adcdc2"
-    },
-    {
-      "created_at": "2026-06-14T19:50:03.224Z",
-      "event_type": "evidence_recorded",
-      "id": 684,
-      "seal": "a4e2367bdfb939271e824ab7ea5e60abcff0af493cb48af87d9e15f8f25deeeb"
-    }
-  ],
   "ok": true,
+  "privacy": {
+    "profile": "public-minimal-v1",
+    "redacted": [
+      "local_paths",
+      "raw_doctor",
+      "latest_events"
+    ]
+  },
   "schema": "genus-pi-status-v1",
   "sealing": {
     "active": true,
