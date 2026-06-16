@@ -4,13 +4,13 @@
     "active_beliefs": 2,
     "active_rules": 0,
     "active_states": 1,
-    "events": 4790,
+    "events": 7625,
     "experiences": 0,
-    "governance_decisions": 0,
+    "governance_decisions": 3,
     "inquiries": 0,
-    "proposals": 0
+    "proposals": 3
   },
-  "generated_at": "2026-06-16T01:37:03.874Z",
+  "generated_at": "2026-06-16T19:45:35.828Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -25,10 +25,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "8147c47d6f7389202cb22b0b7be07507b63ccea2f566bd45061bd9f94eeb1a96",
-    "head_created_at": "2026-06-16T01:35:02.761Z",
-    "head_event_id": 4790,
+    "head": "c5d235251ff81ad5462925bf69f495b1a7ccf43b8f6361700bddec80b37435bd",
+    "head_created_at": "2026-06-16T19:45:03.595Z",
+    "head_event_id": 7625,
     "head_event_type": "evidence_recorded"
   },
-  "seed_commit": "dc8f5edb7fd7aec31a126d9f1d8e7846aaff8a49"
+  "seed_commit": "8e7eb0f09f3a7bab626aa27c244c25d8716309b3"
 }
