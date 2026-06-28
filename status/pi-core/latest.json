@@ -1,16 +1,16 @@
 {
   "core_id": "pi-core",
   "counts": {
-    "active_beliefs": 7,
+    "active_beliefs": 8,
     "active_rules": 0,
     "active_states": 1,
-    "events": 49786,
-    "experiences": 5,
+    "events": 54783,
+    "experiences": 6,
     "governance_decisions": 10,
     "inquiries": 0,
     "proposals": 5
   },
-  "generated_at": "2026-06-27T01:37:06.917Z",
+  "generated_at": "2026-06-28T01:37:07.818Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -25,10 +25,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "3d73bd694d13e82e5ee9ace7066ae67c0e6d5ebf40cfd2137b913351e0611df0",
-    "head_created_at": "2026-06-27T01:36:17.591Z",
-    "head_event_id": 49786,
+    "head": "b04182cd25df1cbacdc793e12a1057a1645c6f62c09f8509bc9e529625603dfb",
+    "head_created_at": "2026-06-28T01:37:03.731Z",
+    "head_event_id": 54783,
     "head_event_type": "belief_confirmed"
   },
-  "seed_commit": "bcbae161cdaa336029aaf1411527651d6d69fc79"
+  "seed_commit": "a88d155f072e6610dff575fc73bf6bd10af0c67e"
 }
