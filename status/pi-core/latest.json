@@ -1,20 +1,51 @@
 {
+  "cognition": {
+    "calibration": {
+      "accuracy": 1.0,
+      "discrimination": 0.359,
+      "held": 5,
+      "stable_judgments": 5
+    },
+    "learning": [
+      {
+        "early_error": 0.067,
+        "mean_error": 0.067,
+        "metric_key": "system.disk_percent",
+        "recent_error": 0.066,
+        "scored": 186
+      },
+      {
+        "early_error": 1.432,
+        "mean_error": 1.299,
+        "metric_key": "system.temperature",
+        "recent_error": 1.386,
+        "scored": 186
+      },
+      {
+        "early_error": 1.18,
+        "mean_error": 1.18,
+        "metric_key": "weather.temp_outside",
+        "recent_error": 1.18,
+        "scored": 15
+      }
+    ]
+  },
   "core_id": "pi-core",
   "counts": {
     "active_beliefs": 8,
     "active_rules": 0,
     "active_states": 1,
-    "events": 54783,
+    "events": 56369,
     "experiences": 6,
     "governance_decisions": 10,
     "inquiries": 0,
     "proposals": 5
   },
-  "generated_at": "2026-06-28T01:37:07.818Z",
+  "generated_at": "2026-06-28T08:12:08.765Z",
   "issues": [],
   "ok": true,
   "privacy": {
-    "profile": "public-minimal-v1",
+    "profile": "public-minimal-v2",
     "redacted": [
       "local_paths",
       "raw_doctor",
@@ -25,10 +56,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "b04182cd25df1cbacdc793e12a1057a1645c6f62c09f8509bc9e529625603dfb",
-    "head_created_at": "2026-06-28T01:37:03.731Z",
-    "head_event_id": 54783,
+    "head": "36ff8c9e308c1e4ee70513cf3e4ab051cb6534024ea7cc02cfd480d47e93328c",
+    "head_created_at": "2026-06-28T08:10:47.597Z",
+    "head_event_id": 56369,
     "head_event_type": "belief_confirmed"
   },
-  "seed_commit": "a88d155f072e6610dff575fc73bf6bd10af0c67e"
+  "seed_commit": "0c3ccae1edd580f0580397bbc1c6fc37cb232aea"
 }
