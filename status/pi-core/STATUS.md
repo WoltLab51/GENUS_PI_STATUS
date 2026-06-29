@@ -1,13 +1,13 @@
 # GENUS · pi-core
 
-**healthy ✓** · seed `13ec5ee618a40296ff3f0dbb638cbb63e7e7a37e` · generated `2026-06-29T07:10:13.903Z`
+**healthy ✓** · seed `a0f8f3154a00fcb9a42b156a39abfdb3edf74fff` · generated `2026-06-29T15:39:50.782Z`
 
 > Auto-generated public status — aggregate health only, no values, paths, or event detail.
 
 ## Health
 
-- events **61954** · beliefs **8** · experiences **6** · proposals 5 · rules 0 · governance 10
-- sealing head `e1b06658faad5343…` (event 61954)
+- events **66947** · beliefs **8** · experiences **6** · proposals 5 · rules 0 · governance 10
+- sealing head `1a580bcc131895cc…` (event 66947)
 
 ## Self-knowledge
 
@@ -18,9 +18,9 @@
 | metric | scored | mean error | skill |
 | --- | ---: | ---: | ---: |
 | `repo.commits_per_day` | 1 | 14.5 | — |
-| `system.disk_percent` | 462 | 0.064 | — |
-| `system.temperature` | 462 | 1.359 | -0.01 |
-| `weather.temp_outside` | 39 | 1.775 | +0.58 |
+| `system.disk_percent` | 563 | 0.062 | -70240894901770.21 |
+| `system.temperature` | 563 | 1.436 | -0.10 |
+| `weather.temp_outside` | 47 | 3.276 | +0.21 |
 
 _skill = how much better than naive (guessing the mean): >0 learned real structure · ~0 the signal is too flat to learn · <0 worse than naive._
 
@@ -29,7 +29,7 @@ _skill = how much better than naive (guessing the mean): >0 learned real structu
 | day | events | beliefs | calib. | temp. err |
 | --- | ---: | ---: | ---: | ---: |
 | 2026-06-28 | 57686 | 8 | 1.0 | 1.329 |
-| 2026-06-29 | 61954 | 8 | 1.0 | 1.359 |
+| 2026-06-29 | 66947 | 8 | 1.0 | 1.436 |
 
 ## Verify it has not been tampered with
 
