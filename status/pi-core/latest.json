@@ -1,9 +1,9 @@
 {
   "cognition": {
     "calibration": {
-      "accuracy": 1.0,
+      "accuracy": 0.8,
       "discrimination": 0.359,
-      "held": 5,
+      "held": 4,
       "stable_judgments": 5
     },
     "learning": [
@@ -16,20 +16,20 @@
       {
         "mean_error": 0.062,
         "metric_key": "system.disk_percent",
-        "scored": 563,
-        "skill": -70240894901770.21
+        "scored": 675,
+        "skill": null
       },
       {
-        "mean_error": 1.436,
+        "mean_error": 1.577,
         "metric_key": "system.temperature",
-        "scored": 563,
-        "skill": -0.105
+        "scored": 675,
+        "skill": -0.136
       },
       {
-        "mean_error": 3.276,
+        "mean_error": 3.956,
         "metric_key": "weather.temp_outside",
-        "scored": 47,
-        "skill": 0.207
+        "scored": 56,
+        "skill": 0.042
       }
     ]
   },
@@ -38,13 +38,13 @@
     "active_beliefs": 8,
     "active_rules": 0,
     "active_states": 1,
-    "events": 66947,
+    "events": 76436,
     "experiences": 6,
     "governance_decisions": 10,
-    "inquiries": 0,
+    "inquiries": 6,
     "proposals": 5
   },
-  "generated_at": "2026-06-29T15:39:50.782Z",
+  "generated_at": "2026-06-30T01:37:08.935Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "1a580bcc131895cce291d6deeebc3d9498ef87a8936291945673312f66b93ece",
-    "head_created_at": "2026-06-29T15:38:37.650Z",
-    "head_event_id": 66947,
+    "head": "f156779e00969925e0698002d63eed16eb931097291b3bac7c19f7b9b03400b8",
+    "head_created_at": "2026-06-30T01:36:37.605Z",
+    "head_event_id": 76436,
     "head_event_type": "belief_confirmed"
   },
-  "seed_commit": "a0f8f3154a00fcb9a42b156a39abfdb3edf74fff"
+  "seed_commit": "67321415f0548e9f2d0fd8f4939d033b13e92164"
 }
