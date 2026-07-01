@@ -1,35 +1,35 @@
 {
   "cognition": {
     "calibration": {
-      "accuracy": 0.8,
-      "discrimination": 0.359,
-      "held": 4,
-      "stable_judgments": 5
+      "accuracy": 0.75,
+      "discrimination": 0.285,
+      "held": 3,
+      "stable_judgments": 4
     },
     "learning": [
       {
-        "mean_error": 14.5,
+        "mean_error": 22.472,
         "metric_key": "repo.commits_per_day",
-        "scored": 1,
-        "skill": null
+        "scored": 2,
+        "skill": -1.644
       },
       {
-        "mean_error": 0.062,
+        "mean_error": 0.092,
         "metric_key": "system.disk_percent",
-        "scored": 675,
-        "skill": null
+        "scored": 963,
+        "skill": -0.5
       },
       {
-        "mean_error": 1.577,
+        "mean_error": 1.83,
         "metric_key": "system.temperature",
-        "scored": 675,
-        "skill": -0.136
+        "scored": 963,
+        "skill": -0.123
       },
       {
-        "mean_error": 3.956,
+        "mean_error": 3.998,
         "metric_key": "weather.temp_outside",
-        "scored": 56,
-        "skill": 0.042
+        "scored": 80,
+        "skill": -0.01
       }
     ]
   },
@@ -38,13 +38,13 @@
     "active_beliefs": 8,
     "active_rules": 0,
     "active_states": 1,
-    "events": 76436,
+    "events": 119968,
     "experiences": 6,
     "governance_decisions": 10,
-    "inquiries": 6,
+    "inquiries": 99,
     "proposals": 5
   },
-  "generated_at": "2026-06-30T01:37:08.935Z",
+  "generated_at": "2026-07-01T01:37:11.475Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "f156779e00969925e0698002d63eed16eb931097291b3bac7c19f7b9b03400b8",
-    "head_created_at": "2026-06-30T01:36:37.605Z",
-    "head_event_id": 76436,
-    "head_event_type": "belief_confirmed"
+    "head": "512559e261630cd093189ae88cd5c997a749f51840f7b2a5f0882e19c03ffab1",
+    "head_created_at": "2026-07-01T01:37:07.572Z",
+    "head_event_id": 119978,
+    "head_event_type": "relation_asserted"
   },
-  "seed_commit": "67321415f0548e9f2d0fd8f4939d033b13e92164"
+  "seed_commit": "cd0b4d2f1b3ad4206b8f32c89b1fd966281e5db1"
 }
