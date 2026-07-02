@@ -2,34 +2,34 @@
   "cognition": {
     "calibration": {
       "accuracy": 0.75,
-      "discrimination": 0.285,
+      "discrimination": 0.257,
       "held": 3,
       "stable_judgments": 4
     },
     "learning": [
       {
-        "mean_error": 22.472,
+        "mean_error": 16.781,
         "metric_key": "repo.commits_per_day",
-        "scored": 2,
-        "skill": -1.644
+        "scored": 3,
+        "skill": -0.936
       },
       {
-        "mean_error": 0.092,
+        "mean_error": 0.219,
         "metric_key": "system.disk_percent",
-        "scored": 963,
-        "skill": -0.5
+        "scored": 1251,
+        "skill": 0.08
       },
       {
-        "mean_error": 1.83,
+        "mean_error": 3.385,
         "metric_key": "system.temperature",
-        "scored": 963,
-        "skill": -0.123
+        "scored": 1251,
+        "skill": 0.008
       },
       {
-        "mean_error": 3.998,
+        "mean_error": 4.087,
         "metric_key": "weather.temp_outside",
-        "scored": 80,
-        "skill": -0.01
+        "scored": 104,
+        "skill": -0.029
       }
     ]
   },
@@ -38,13 +38,13 @@
     "active_beliefs": 8,
     "active_rules": 0,
     "active_states": 1,
-    "events": 119968,
-    "experiences": 6,
+    "events": 298647,
+    "experiences": 9,
     "governance_decisions": 10,
-    "inquiries": 99,
+    "inquiries": 166,
     "proposals": 5
   },
-  "generated_at": "2026-07-01T01:37:11.475Z",
+  "generated_at": "2026-07-02T01:37:21.508Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "512559e261630cd093189ae88cd5c997a749f51840f7b2a5f0882e19c03ffab1",
-    "head_created_at": "2026-07-01T01:37:07.572Z",
-    "head_event_id": 119978,
+    "head": "18fe830318b168579d7ad76090ae1de8a0dca2fbe17ad195431b24a6e06c8da6",
+    "head_created_at": "2026-07-02T01:37:21.457Z",
+    "head_event_id": 298677,
     "head_event_type": "relation_asserted"
   },
-  "seed_commit": "cd0b4d2f1b3ad4206b8f32c89b1fd966281e5db1"
+  "seed_commit": "0c51aa4c00132830030d0049c9750df652f3f1d7"
 }
