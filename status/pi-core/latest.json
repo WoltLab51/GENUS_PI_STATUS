@@ -1,50 +1,50 @@
 {
   "cognition": {
     "calibration": {
-      "accuracy": 0.75,
+      "accuracy": 0.5,
       "discrimination": 0.257,
-      "held": 3,
+      "held": 2,
       "stable_judgments": 4
     },
     "learning": [
       {
-        "mean_error": 23.813,
+        "mean_error": 21.651,
         "metric_key": "repo.commits_per_day",
-        "scored": 4,
-        "skill": -0.671
+        "scored": 5,
+        "skill": -0.504
       },
       {
-        "mean_error": 0.677,
+        "mean_error": 1.027,
         "metric_key": "system.disk_percent",
-        "scored": 1537,
-        "skill": 0.136
+        "scored": 1825,
+        "skill": 0.175
       },
       {
-        "mean_error": 4.093,
+        "mean_error": 3.775,
         "metric_key": "system.temperature",
-        "scored": 1537,
-        "skill": -0.041
+        "scored": 1825,
+        "skill": -0.003
       },
       {
-        "mean_error": 4.137,
+        "mean_error": 4.32,
         "metric_key": "weather.temp_outside",
-        "scored": 128,
-        "skill": 0.015
+        "scored": 152,
+        "skill": -0.011
       }
     ]
   },
   "core_id": "pi-core",
   "counts": {
-    "active_beliefs": 8,
+    "active_beliefs": 9,
     "active_rules": 0,
     "active_states": 1,
-    "events": 443660,
+    "events": 469458,
     "experiences": 9,
-    "governance_decisions": 10,
-    "inquiries": 185,
-    "proposals": 5
+    "governance_decisions": 11,
+    "inquiries": 199,
+    "proposals": 8
   },
-  "generated_at": "2026-07-03T01:37:28.658Z",
+  "generated_at": "2026-07-04T01:37:29.597Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "f6dd3706708690a173bf0d130e48bf46669339117ee1763164a5debf0093460f",
-    "head_created_at": "2026-07-03T01:37:26.091Z",
-    "head_event_id": 443702,
-    "head_event_type": "relation_asserted"
+    "head": "2860c74dbc1c3ae9dee0fb238a17f7305037d3e5744e6775cb75bd6327a9d22b",
+    "head_created_at": "2026-07-04T01:35:04.197Z",
+    "head_event_id": 469458,
+    "head_event_type": "forecast_made"
   },
-  "seed_commit": "2e34394da697d3484b952ef6f4dc69ff3e432453"
+  "seed_commit": "263d33cf7b8cf68efb6b45680bc8d1dee1e09698"
 }

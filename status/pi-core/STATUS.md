@@ -1,26 +1,26 @@
 # GENUS · pi-core
 
-**healthy ✓** · seed `2e34394da697d3484b952ef6f4dc69ff3e432453` · generated `2026-07-03T01:37:28.658Z`
+**healthy ✓** · seed `263d33cf7b8cf68efb6b45680bc8d1dee1e09698` · generated `2026-07-04T01:37:29.597Z`
 
 > Auto-generated public status — aggregate health only, no values, paths, or event detail.
 
 ## Health
 
-- events **443660** · beliefs **8** · experiences **9** · proposals 5 · rules 0 · governance 10
-- sealing head `f6dd3706708690a1…` (event 443702)
+- events **469458** · beliefs **9** · experiences **9** · proposals 8 · rules 0 · governance 11
+- sealing head `2860c74dbc1c3ae9…` (event 469458)
 
 ## Self-knowledge
 
-**Calibration** — 3/4 stable judgments held · accuracy **0.75** · discriminates (+0.257) — *does GENUS know that it knows?*
+**Calibration** — 2/4 stable judgments held · accuracy **0.5** · discriminates (+0.257) — *does GENUS know that it knows?*
 
 **Learning** — 24/7 forecast paths (predict → self-test → score):
 
 | metric | scored | mean error | skill |
 | --- | ---: | ---: | ---: |
-| `repo.commits_per_day` | 4 | 23.813 | -0.67 |
-| `system.disk_percent` | 1537 | 0.677 | +0.14 |
-| `system.temperature` | 1537 | 4.093 | -0.04 |
-| `weather.temp_outside` | 128 | 4.137 | +0.01 |
+| `repo.commits_per_day` | 5 | 21.651 | -0.50 |
+| `system.disk_percent` | 1825 | 1.027 | +0.17 |
+| `system.temperature` | 1825 | 3.775 | -0.00 |
+| `weather.temp_outside` | 152 | 4.32 | -0.01 |
 
 _skill = how much better than naive (guessing the mean): >0 learned real structure · ~0 the signal is too flat to learn · <0 worse than naive._
 
@@ -34,6 +34,7 @@ _skill = how much better than naive (guessing the mean): >0 learned real structu
 | 2026-07-01 | 119968 | 8 | 0.75 | 1.83 |
 | 2026-07-02 | 298647 | 8 | 0.75 | 3.385 |
 | 2026-07-03 | 443660 | 8 | 0.75 | 4.093 |
+| 2026-07-04 | 469458 | 9 | 0.5 | 3.775 |
 
 ## Verify it has not been tampered with
 
