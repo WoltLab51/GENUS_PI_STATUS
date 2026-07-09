@@ -1,0 +1,68 @@
+{
+  "cognition": {
+    "calibration": {
+      "accuracy": 0.5,
+      "discrimination": 0.257,
+      "held": 2,
+      "stable_judgments": 4
+    },
+    "learning": [
+      {
+        "mean_error": 18.575,
+        "metric_key": "repo.commits_per_day",
+        "scored": 10,
+        "skill": -0.47
+      },
+      {
+        "mean_error": 3.724,
+        "metric_key": "system.disk_percent",
+        "scored": 3254,
+        "skill": 0.029
+      },
+      {
+        "mean_error": 3.15,
+        "metric_key": "system.temperature",
+        "scored": 3253,
+        "skill": 0.007
+      },
+      {
+        "mean_error": 3.419,
+        "metric_key": "weather.temp_outside",
+        "scored": 271,
+        "skill": 0.087
+      }
+    ]
+  },
+  "core_id": "RonGen",
+  "counts": {
+    "active_beliefs": 9,
+    "active_rules": 0,
+    "active_states": 1,
+    "events": 757559,
+    "experiences": 11,
+    "governance_decisions": 16,
+    "inquiries": 302,
+    "proposals": 13
+  },
+  "generated_at": "2026-07-09T01:37:47.905Z",
+  "issues": [],
+  "ok": true,
+  "privacy": {
+    "profile": "public-minimal-v2",
+    "redacted": [
+      "local_paths",
+      "raw_doctor",
+      "latest_events"
+    ]
+  },
+  "schema": "genus-pi-status-v1",
+  "sealing": {
+    "active": true,
+    "algo": "sha256-chain-v1",
+    "head": "883877e82b17426028f91e26cefb024ea689ccf61905e1ffbfb7cee58d998459",
+    "head_created_at": "2026-07-09T01:37:31.785Z",
+    "head_event_id": 757561,
+    "head_event_type": "belief_confirmed"
+  },
+  "seed_commit": "20d5773305d503ca861e0a0fe365ae473cdc9657"
+}
