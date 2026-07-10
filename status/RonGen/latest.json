@@ -1,35 +1,35 @@
 {
   "cognition": {
     "calibration": {
-      "accuracy": 0.5,
-      "discrimination": 0.257,
-      "held": 2,
-      "stable_judgments": 4
+      "accuracy": 0.667,
+      "discrimination": 0.209,
+      "held": 4,
+      "stable_judgments": 6
     },
     "learning": [
       {
-        "mean_error": 18.575,
+        "mean_error": 19.614,
         "metric_key": "repo.commits_per_day",
-        "scored": 10,
-        "skill": -0.47
+        "scored": 11,
+        "skill": -0.705
       },
       {
-        "mean_error": 3.724,
+        "mean_error": 4.175,
         "metric_key": "system.disk_percent",
-        "scored": 3254,
-        "skill": 0.029
+        "scored": 3542,
+        "skill": -0.001
       },
       {
-        "mean_error": 3.15,
+        "mean_error": 2.971,
         "metric_key": "system.temperature",
-        "scored": 3253,
-        "skill": 0.007
+        "scored": 3541,
+        "skill": 0.018
       },
       {
-        "mean_error": 3.419,
+        "mean_error": 3.392,
         "metric_key": "weather.temp_outside",
-        "scored": 271,
-        "skill": 0.087
+        "scored": 295,
+        "skill": 0.07
       }
     ]
   },
@@ -38,13 +38,13 @@
     "active_beliefs": 9,
     "active_rules": 0,
     "active_states": 1,
-    "events": 757559,
-    "experiences": 11,
+    "events": 764480,
+    "experiences": 13,
     "governance_decisions": 16,
-    "inquiries": 302,
-    "proposals": 13
+    "inquiries": 304,
+    "proposals": 14
   },
-  "generated_at": "2026-07-09T01:37:47.905Z",
+  "generated_at": "2026-07-10T01:37:48.929Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "883877e82b17426028f91e26cefb024ea689ccf61905e1ffbfb7cee58d998459",
-    "head_created_at": "2026-07-09T01:37:31.785Z",
-    "head_event_id": 757561,
-    "head_event_type": "belief_confirmed"
+    "head": "3d7e5ca5ac8dddc3d186e48cf23568f3789a29a85478109585a9a769a065ec26",
+    "head_created_at": "2026-07-10T01:35:05.589Z",
+    "head_event_id": 764480,
+    "head_event_type": "forecast_made"
   },
-  "seed_commit": "20d5773305d503ca861e0a0fe365ae473cdc9657"
+  "seed_commit": "db6c5dd21b9aeef15bdb7df371728697ed10b0ff"
 }
