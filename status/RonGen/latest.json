@@ -1,35 +1,35 @@
 {
   "cognition": {
     "calibration": {
-      "accuracy": 0.5,
-      "discrimination": 0.209,
+      "accuracy": 0.429,
+      "discrimination": 0.22,
       "held": 3,
-      "stable_judgments": 6
+      "stable_judgments": 7
     },
     "learning": [
       {
-        "mean_error": 19.035,
+        "mean_error": 18.725,
         "metric_key": "repo.commits_per_day",
-        "scored": 12,
-        "skill": -0.705
+        "scored": 13,
+        "skill": -0.652
       },
       {
-        "mean_error": 4.818,
+        "mean_error": 4.778,
         "metric_key": "system.disk_percent",
-        "scored": 3969,
-        "skill": -0.003
+        "scored": 4218,
+        "skill": 0.018
       },
       {
-        "mean_error": 2.764,
+        "mean_error": 2.758,
         "metric_key": "system.temperature",
-        "scored": 3968,
-        "skill": 0.02
+        "scored": 4217,
+        "skill": 0.021
       },
       {
-        "mean_error": 3.296,
+        "mean_error": 3.259,
         "metric_key": "weather.temp_outside",
-        "scored": 331,
-        "skill": 0.128
+        "scored": 352,
+        "skill": 0.16
       }
     ]
   },
@@ -38,13 +38,13 @@
     "active_beliefs": 9,
     "active_rules": 0,
     "active_states": 1,
-    "events": 775410,
+    "events": 936506,
     "experiences": 14,
     "governance_decisions": 27,
-    "inquiries": 351,
+    "inquiries": 36174,
     "proposals": 16
   },
-  "generated_at": "2026-07-12T01:37:49.652Z",
+  "generated_at": "2026-07-13T01:37:58.633Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "11334f42cef7e4fbc7aa523b4f658e4fa85ffac199fb7db309f8b3788e4daa72",
-    "head_created_at": "2026-07-12T01:37:09.185Z",
-    "head_event_id": 775410,
-    "head_event_type": "belief_confirmed"
+    "head": "4c87556df98fbae89716ca19872933f167c4d3a2832f8dadb065ed0ace0737fb",
+    "head_created_at": "2026-07-13T01:35:05.129Z",
+    "head_event_id": 936506,
+    "head_event_type": "forecast_made"
   },
-  "seed_commit": "bc21ffab70df002779716caf46f7f3d452a81aa9"
+  "seed_commit": "d478152962de2ee178f0469b2a73429eb662fb33"
 }
