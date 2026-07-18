@@ -1,35 +1,35 @@
 {
   "cognition": {
     "calibration": {
-      "accuracy": 0.429,
+      "accuracy": 0.286,
       "discrimination": 0.22,
-      "held": 3,
+      "held": 2,
       "stable_judgments": 7
     },
     "learning": [
       {
-        "mean_error": 18.172,
+        "mean_error": 17.634,
         "metric_key": "repo.commits_per_day",
-        "scored": 17,
-        "skill": -0.649
+        "scored": 18,
+        "skill": -0.559
       },
       {
-        "mean_error": 4.16,
+        "mean_error": 3.988,
         "metric_key": "system.disk_percent",
-        "scored": 5354,
-        "skill": 0.068
+        "scored": 5642,
+        "skill": 0.076
       },
       {
-        "mean_error": 2.426,
+        "mean_error": 2.365,
         "metric_key": "system.temperature",
-        "scored": 5353,
-        "skill": 0.0
+        "scored": 5641,
+        "skill": -0.007
       },
       {
-        "mean_error": 3.011,
+        "mean_error": 2.945,
         "metric_key": "weather.temp_outside",
-        "scored": 448,
-        "skill": 0.255
+        "scored": 472,
+        "skill": 0.258
       }
     ]
   },
@@ -38,13 +38,13 @@
     "active_beliefs": 9,
     "active_rules": 0,
     "active_states": 1,
-    "events": 964534,
+    "events": 971587,
     "experiences": 14,
     "governance_decisions": 27,
-    "inquiries": 36174,
+    "inquiries": 36175,
     "proposals": 16
   },
-  "generated_at": "2026-07-17T01:38:01.522Z",
+  "generated_at": "2026-07-18T01:38:01.827Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "5a4cb89ee6089cfb9feb125d4eb72c036a6e5be2e09a8a5d0493ec2001f070c0",
-    "head_created_at": "2026-07-17T01:37:16.812Z",
-    "head_event_id": 964534,
-    "head_event_type": "belief_confirmed"
+    "head": "15cc6de21261b1c465cf22e3b4c95fb27bb4bd9cc935ee43eced0850929f7867",
+    "head_created_at": "2026-07-18T01:35:05.857Z",
+    "head_event_id": 971587,
+    "head_event_type": "forecast_made"
   },
   "seed_commit": "a5bb421ee2feee18609d18514d5e56c436a1b097"
 }
