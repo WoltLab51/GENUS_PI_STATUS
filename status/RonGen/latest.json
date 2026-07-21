@@ -1,35 +1,35 @@
 {
   "cognition": {
     "calibration": {
-      "accuracy": 0.286,
-      "discrimination": 0.22,
+      "accuracy": 0.5,
+      "discrimination": 0.207,
       "held": 2,
-      "stable_judgments": 7
+      "stable_judgments": 4
     },
     "learning": [
       {
-        "mean_error": 17.813,
+        "mean_error": 17.512,
         "metric_key": "repo.commits_per_day",
-        "scored": 20,
-        "skill": -0.537
+        "scored": 21,
+        "skill": -0.498
       },
       {
-        "mean_error": 3.685,
+        "mean_error": 3.55,
         "metric_key": "system.disk_percent",
-        "scored": 6217,
-        "skill": 0.089
+        "scored": 6505,
+        "skill": 0.093
       },
       {
-        "mean_error": 2.216,
+        "mean_error": 2.147,
         "metric_key": "system.temperature",
-        "scored": 6216,
-        "skill": 0.004
+        "scored": 6504,
+        "skill": 0.01
       },
       {
-        "mean_error": 2.988,
+        "mean_error": 3.088,
         "metric_key": "weather.temp_outside",
-        "scored": 520,
-        "skill": 0.233
+        "scored": 544,
+        "skill": 0.213
       }
     ]
   },
@@ -38,13 +38,13 @@
     "active_beliefs": 9,
     "active_rules": 0,
     "active_states": 1,
-    "events": 985663,
+    "events": 992736,
     "experiences": 14,
-    "governance_decisions": 27,
+    "governance_decisions": 29,
     "inquiries": 36175,
-    "proposals": 16
+    "proposals": 18
   },
-  "generated_at": "2026-07-20T01:38:04.059Z",
+  "generated_at": "2026-07-21T01:38:04.139Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,10 +59,10 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "bbcd8c77ec1c9410d265d74d278cd0eefd828889392f6b79587c5472b56479d2",
-    "head_created_at": "2026-07-20T01:35:31.112Z",
-    "head_event_id": 985663,
-    "head_event_type": "belief_confirmed"
+    "head": "24456b4bfc61e3986d82d7d5f8a27bf5c89bfe4886abcb17940750eb677fda5b",
+    "head_created_at": "2026-07-21T01:35:47.119Z",
+    "head_event_id": 992736,
+    "head_event_type": "belief_superseded"
   },
   "seed_commit": "1a73db0db72ebf57f1611b42b97a3e7bef9ec404"
 }
