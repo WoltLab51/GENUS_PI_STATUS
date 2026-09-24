@@ -1,13 +1,13 @@
 # GENUS · RonGen
 
-**healthy ✓** · seed `245c21774854f0530a94414f4d8b0f35b62b1c0b` · generated `2026-09-23T01:38:51.706Z`
+**healthy ✓** · seed `245c21774854f0530a94414f4d8b0f35b62b1c0b` · generated `2026-09-24T01:38:52.573Z`
 
 > Auto-generated public status — aggregate health only, no values, paths, or event detail.
 
 ## Health
 
-- events **1439725** · beliefs **9** · experiences **14** · proposals 44 · rules 0 · governance 55
-- sealing head `7a165eecdfbda093…` (event 1439725)
+- events **1446481** · beliefs **9** · experiences **14** · proposals 44 · rules 0 · governance 55
+- sealing head `7b1fa7641cf47fc8…` (event 1446481)
 
 ## Self-knowledge
 
@@ -17,9 +17,9 @@
 
 | metric | scored | mean error | skill |
 | --- | ---: | ---: | ---: |
-| `repo.commits_per_day` | 84 | 10.504 | -0.49 |
-| `system.disk_percent` | 24921 | 3.141 | +0.14 |
-| `system.temperature` | 24920 | 1.384 | +0.00 |
+| `repo.commits_per_day` | 85 | 10.406 | -0.49 |
+| `system.disk_percent` | 25209 | 3.161 | +0.13 |
+| `system.temperature` | 25208 | 1.38 | +0.00 |
 | `weather.temp_outside` | 1748 | 3.162 | +0.25 |
 
 _skill = how much better than naive (guessing the mean): >0 learned real structure · ~0 the signal is too flat to learn · <0 worse than naive._
@@ -28,13 +28,13 @@ _skill = how much better than naive (guessing the mean): >0 learned real structu
 
 | day | events | beliefs | calib. | temp. err |
 | --- | ---: | ---: | ---: | ---: |
-| 2026-09-17 | 1399185 | 9 | 0.5 | 1.424 |
 | 2026-09-18 | 1405941 | 9 | 0.5 | 1.415 |
 | 2026-09-19 | 1412686 | 9 | 0.5 | 1.406 |
 | 2026-09-20 | 1419442 | 9 | 0.5 | 1.4 |
 | 2026-09-21 | 1426196 | 9 | 0.5 | 1.394 |
 | 2026-09-22 | 1432971 | 9 | 0.5 | 1.389 |
 | 2026-09-23 | 1439725 | 9 | 0.5 | 1.384 |
+| 2026-09-24 | 1446481 | 9 | 0.5 | 1.38 |
 
 ## Verify it has not been tampered with
 
