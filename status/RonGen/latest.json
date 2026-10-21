@@ -8,21 +8,21 @@
     },
     "learning": [
       {
-        "mean_error": 9.022,
+        "mean_error": 8.981,
         "metric_key": "repo.commits_per_day",
-        "scored": 111,
-        "skill": -0.567
+        "scored": 112,
+        "skill": -0.571
       },
       {
-        "mean_error": 3.496,
+        "mean_error": 3.504,
         "metric_key": "system.disk_percent",
-        "scored": 32697,
-        "skill": 0.044
+        "scored": 32985,
+        "skill": 0.04
       },
       {
-        "mean_error": 1.234,
+        "mean_error": 1.23,
         "metric_key": "system.temperature",
-        "scored": 32696,
+        "scored": 32984,
         "skill": -0.002
       },
       {
@@ -38,13 +38,13 @@
     "active_beliefs": 9,
     "active_rules": 0,
     "active_states": 1,
-    "events": 1622294,
+    "events": 1629024,
     "experiences": 14,
     "governance_decisions": 58,
     "inquiries": 36175,
     "proposals": 47
   },
-  "generated_at": "2026-10-20T01:39:08.871Z",
+  "generated_at": "2026-10-21T01:39:09.687Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,9 +59,9 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "929a9c33992b7cb35d57f4fc9dd1c5d0edcc22ba877e77fbdbdc486a7a24f400",
-    "head_created_at": "2026-10-20T01:37:16.392Z",
-    "head_event_id": 1622294,
+    "head": "d29d0df5d03c9bc673c5fd3cca8a928c412c2fe16af59e80e71097895d685fd6",
+    "head_created_at": "2026-10-21T01:38:37.657Z",
+    "head_event_id": 1629026,
     "head_event_type": "belief_confirmed"
   },
   "seed_commit": "245c21774854f0530a94414f4d8b0f35b62b1c0b"
