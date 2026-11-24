@@ -14,15 +14,15 @@
         "skill": -0.616
       },
       {
-        "mean_error": 4.082,
+        "mean_error": 4.099,
         "metric_key": "system.disk_percent",
-        "scored": 42501,
-        "skill": -0.099
+        "scored": 42789,
+        "skill": -0.103
       },
       {
-        "mean_error": 1.148,
+        "mean_error": 1.147,
         "metric_key": "system.temperature",
-        "scored": 42500,
+        "scored": 42788,
         "skill": -0.003
       },
       {
@@ -38,13 +38,13 @@
     "active_beliefs": 9,
     "active_rules": 0,
     "active_states": 1,
-    "events": 1851550,
+    "events": 1858277,
     "experiences": 14,
     "governance_decisions": 59,
     "inquiries": 36175,
     "proposals": 48
   },
-  "generated_at": "2026-11-23T02:39:34.049Z",
+  "generated_at": "2026-11-24T02:39:34.338Z",
   "issues": [],
   "ok": true,
   "privacy": {
@@ -59,9 +59,9 @@
   "sealing": {
     "active": true,
     "algo": "sha256-chain-v1",
-    "head": "592dd39cba6f8d723647a647017895cfa6b32818106f86f7f84be36cf0fb49a6",
-    "head_created_at": "2026-11-23T02:38:30.620Z",
-    "head_event_id": 1851552,
+    "head": "d0c3c26aa69264d8076188b3b8f79856c06e4dfd3c591245da77d5e1bc52fe6b",
+    "head_created_at": "2026-11-24T02:36:33.523Z",
+    "head_event_id": 1858277,
     "head_event_type": "belief_confirmed"
   },
   "seed_commit": "245c21774854f0530a94414f4d8b0f35b62b1c0b"
